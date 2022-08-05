@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Alumni Sans Inline One', cursive;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.box{
+    width: calc(100vw - 10rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: inset 0px 1px 4px 0 rgba(0,0,0.5) ;
+    padding: 1.2rem;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.btn{
+    width: calc(100% / 3);
+    height: 10rem;
+    border-radius: 1.5rem;
+    border: 1px solid #aaa;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+
+}
+.resultado{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.reset{
+    text-align: center;
+    margin: 10px 0;
+}
+#reset{
+    
+    cursor: pointer;
+    color: black;
+    background-color:#aaa;
+    border-radius: 0.5rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    margin-top: 7px 0;
+    transition: all 0.9s ease-in-out;
+
+}
+
+#reset:hover{
+    color: #aaa;
+    background-color: rgba(0,0,0.5);
+}
